@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 3 — Table & Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="header">
+    <h1>Task 3  Table  and Form</h1>
+  </div>
+
+  <div class="navbar">
+    <a href="index.html">Task 1</a>
+    <a href="task2.html">Task 2</a>
+    <a href="task3.html">Task 3</a>
+    <a href="task4.html">Task 4</a>
+  </div>
+
+  <div class="main-content clearfix">
+    <div class="sidebar">
+      <ul>
+        <li>Table</li>
+        <li>Form</li>
+      </ul>
+    </div>
+
+    <div class="aside">
+      <h2>Student Grades</h2>
+      <table>
+        <thead>
+          <tr><th>Name</th><th>Subject</th><th>Grade</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Kausar</td><td>HTML</td><td>95</td></tr>
+          <tr class="highlight-row"><td>Leila</td><td>CSS</td><td>100</td></tr>
+          <tr><td>Aidos</td><td>JavaScript</td><td>88</td></tr>
+          <tr><td>Nazira</td><td>Web</td><td>92</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Feedback Form</h2>
+      <form class="form-card" action="#" method="post">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Your name">
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="kausar.baimakhan@gmail.com">
+
+        <label for="role">Role</label>
+        <select id="role" name="role">
+          <option>Student</option>
+          <option>Teacher</option>
+          <option>Other</option>
+        </select>
+
+        <p><b>Do you like this assignment?</b></p>
+        <label><input type="radio" name="like" value="yes"> Yes</label>
+        <label><input type="radio" name="like" value="no"> No</label>
+
+        <label for="msg">Comments</label>
+        <textarea id="msg" name="msg" placeholder="Your feedback..."></textarea>
+
+        <button class="button" type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2025 Your Website</p>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+  }
+  
+  /* header */
+  .header {
+    background-color: #37263d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* navbar */
+  .navbar {
+    background-color: #37263d;
+    text-align: center;
+  }
+  .navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .navbar a:hover {
+    background-color: #997ba4;
+  }
+  
+  
+  .main-content { width: 100%; }
+  .clearfix::after { content:""; display:block; clear:both; }
+  
+  .sidebar {
+    float: left;
+    width: 30%;
+    background-color: #ffffff;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  .aside {
+    float: right;
+    width: 68%;
+    padding: 15px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+  }
+  
+  /* footer*/
+  .footer {
+    background-color: #37263d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 12px;
+  }
+  
+ /* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background: #ffffff;
+}
+
+tbody tr:nth-child(odd) td {
+  background: #f2f2f2; 
+}
+
+.highlight-row td {
+  background: #fff7cc !important; 
+}
+
+  
+  /* Form */
+  .form-card { width:420px; max-width:95%; margin:16px auto; background:#fff; border:1px solid #ccc; border-radius:10px; padding:14px; }
+  .form-card label { display:block; margin:8px 0 4px; font-weight:bold; }
+  .form-card input[type="text"],
+  .form-card input[type="email"],
+  .form-card select,
+  .form-card textarea { width:100%; padding:8px; border:1px solid #ccc; border-radius:6px; }
+  .form-card textarea { min-height:90px; }
+  .form-card .button { width:100%; margin-top:10px; }
+  
+  .button { display:inline-block; padding:10px 14px; border-radius:8px; background:#4c4f52; color:#fff; text-decoration:none; }
+  .button:hover { opacity:.9; }
